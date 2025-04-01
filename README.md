@@ -107,7 +107,19 @@ It is highly recommended to create a virtual environment to isolate the project 
 
 ## Results
 
-The final tuned Random Forest model achieves [insert your model performance results here, e.g., AUC score, precision, recall, F1-score].
+The final tuned Random Forest model achieves 
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85307
+           1       0.91      0.85      0.88       136
+
+    accuracy                           1.00     85443
+   macro avg       0.96      0.92      0.94     85443
+weighted avg       1.00      1.00      1.00     85443
+
+AUC: 0.9772009865406537
+
 
 ## Future Improvements
 
